@@ -1,4 +1,5 @@
 Automated Loan Eligibility & Suggestion System
+
 📌 Project Overview
 
 This project implements a machine learning–based system for forecasting customers’ loan eligibility and recommending suitable credit limits. The solution uses a two-stage pipeline:
@@ -8,6 +9,7 @@ Classification – Predicts whether an applicant is eligible for a loan.
 Hybrid Regression (Clustering + XGBoost) – For ineligible applicants, suggests an alternative loan amount based on financial and demographic patterns.
 
 The system is designed to support financial institutions in minimizing lending risks while providing applicants with constructive alternatives instead of outright rejection.
+
 
 ⚙️ Features
 
@@ -20,6 +22,7 @@ End-to-end ML pipeline: preprocessing, feature engineering, balancing, model tun
 Streamlit-based web application for user interaction.
 
 MySQL database integration for applicant and prediction data.
+
 
 📊 Machine Learning Workflow
 
